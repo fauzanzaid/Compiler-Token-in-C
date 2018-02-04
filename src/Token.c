@@ -9,7 +9,7 @@
 
 Token *Token_new(){
 	Token *tkn_ptr = malloc( sizeof(Token) );
-	tkn->data = Token_Data_new();
+	tkn_ptr->data = Token_Data_new();
 }
 
 void Token_destroy(Token *tkn_ptr){
