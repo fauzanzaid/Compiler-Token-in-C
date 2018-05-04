@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project( Token VERSION 0.1.1 )
+project( Token VERSION 0.1.0 )
 
 add_library(Token STATIC src/Token.c)
 
